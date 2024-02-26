@@ -24,7 +24,7 @@ steps:
     image: plugins/gcr
     settings:
       repo: cyrus-containers/proteinmpnn
-      tags:n
+      tags:
         - ${DRONE_COMMIT_BRANCH}
       debug: true
       dockerfile: Dockerfile
