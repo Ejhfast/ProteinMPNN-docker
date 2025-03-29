@@ -16,3 +16,4 @@ RUN pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.1 -
 ENV PYTHONPATH=/home/ProteinMPNN/
 ENV PROTEIN_MPNN=/home/ProteinMPNN/
 RUN pip3 install biopython
+RUN pip3 install numpy==1.26.4
